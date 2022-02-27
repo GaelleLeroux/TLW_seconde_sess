@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Head {
+    background-color: #f44336;
+    color: white;
+    padding: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    font-family :Arial, Helvetica, sans-serif;
+
+}
+
+.Button {
+  color: #555;
+  font-size: 13px;
+  margin : 3px;
+  padding: 8px;
+}
+
+.li1{
+    background-color: #ddd;
+    font-size: 17px;
+    padding-left: 370px;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.li2{
+    background-color: #bbb;
+    font-size: 17px;
+    padding-left: 370px;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+}

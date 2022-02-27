@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercice6</title>
+    <link rel="stylesheet" href="exercice6.css">
+</head>
+
+<body>
+
+    <div id="myDIV" class="Head">
+        <h2>Tâche :  </h2>
+        <input type="text" id="myInput" placeholder="Element a ajouter...">
+        <button class="Button" onclick="Ajouter2()">Ajouter</button>
+        <button class="Button" onclick="Supprimer2()">Supprimer</button>
+    </div>
+
+    <ul id="todolist"></ul> 
+
+    <template id="Tache">
+        <li class="li1">{{item}}</li>  
+    </template>
+
+
+
+</body>
+
+<script src="exercice6.js"></script>
+
+</html>
